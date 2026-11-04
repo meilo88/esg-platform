@@ -1,0 +1,174 @@
+{
+  "company_code": "002415",
+  "company_name": "杭州海康威视数字技术股份有限公司",
+  "industry_l1": "计算机",
+  "industry_l2": "安防数字化",
+  "exchange": "SZ",
+  "year": 2023,
+  "title": "2023环境、社会及治理报告",
+  "pdf_filename": "海康威视2023年环境社会及治理报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 157687.7,
+      "unit": "吨二氧化碳当量",
+      "page": 57,
+      "quote": "排放总量（范围 1+ 范围 2） 吨二氧化碳当量 157,621.0 159,454.1 157,687.7"
+    },
+    "Q02": {
+      "value": 6838.9,
+      "unit": "吨二氧化碳当量",
+      "page": 57,
+      "quote": "范围 1 吨二氧化碳当量 6,857.0 5,153.9 6,838.9"
+    },
+    "Q03A": {
+      "value": 150848.8,
+      "unit": "吨二氧化碳当量",
+      "page": 57,
+      "quote": "范围 2 吨二氧化碳当量 150,764.0 154,300.2 150,848.8"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 884.2,
+      "unit": "吨",
+      "page": 58,
+      "quote": "危险废弃物处置总量 吨 761.5 723.1 884.2"
+    },
+    "Q10": {
+      "value": 2372.2,
+      "unit": "吨",
+      "page": 58,
+      "quote": "一般工业废弃物 吨 2,571.5 2,042.3 2,372.2"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 36193.3,
+      "unit": "吨标煤",
+      "page": 57,
+      "quote": "综合能耗 吨标煤 31,480.0 30,253.2 36,193.3"
+    },
+    "Q13": {
+      "value": 283433.1,
+      "unit": "兆瓦时",
+      "page": 57,
+      "quote": "外购电力 兆瓦时 225,951.1 223,072.1 283,433.1"
+    },
+    "Q15": {
+      "value": 12533.7,
+      "unit": "兆瓦时",
+      "page": 57,
+      "quote": "其中：光伏发电 兆瓦时 8,994.3 4,508.3 12,533.7"
+    },
+    "Q16": {
+      "value": 2598300.3,
+      "unit": "吨",
+      "page": 57,
+      "quote": "总取水量 吨 1,730,970.8 2,336,502.7 2,598,300.3"
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": 11393,
+      "unit": "百万元",
+      "page": 58,
+      "quote": "研发投入 百万元 8,252 9,814 11,393"
+    },
+    "Q22": {
+      "value": 28479,
+      "unit": "人",
+      "page": 26,
+      "quote": "28,479名"
+    },
+    "Q23": {
+      "value": 1884,
+      "unit": "件",
+      "page": 58,
+      "quote": "新增专利 件 1,507 2,194 1,884"
+    },
+    "Q24": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q25": {
+      "value": 58544,
+      "unit": "人",
+      "page": 58,
+      "quote": "全球聘用员工 人 52,752 58,284 58,544"
+    },
+    "Q26": {
+      "value": 1534482,
+      "unit": "小时",
+      "page": 41,
+      "quote": "员工培训总时长达 1,534,482 小时"
+    },
+    "Q27": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 0,
+      "unit": null,
+      "page": 62,
+      "quote": "本报告经管理层确认后，于 2024 年 4 月 18 日获董事会审批通过。"
+    },
+    "Q31": {
+      "value": 0,
+      "unit": "件",
+      "page": 23,
+      "quote": "报告期内，公司未发生反垄断"
+    },
+    "Q32": {
+      "value": 9,
+      "unit": "人",
+      "page": 19,
+      "quote": "第五届董事会由 9 名董事组成，其中 4 名为独立董事"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "company_code": "002594",
+  "company_name": "比亚迪股份有限公司",
+  "industry_l1": "汽车",
+  "industry_l2": "乘用车",
+  "exchange": "SZ",
+  "year": 2023,
+  "title": "比亚迪2023社会责任报告",
+  "pdf_filename": "比亚迪2023社会责任报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 12341455,
+      "unit": "tCO2e",
+      "page": 44,
+      "quote": "温室气体排放总量（二氧化碳当量） 吨 5,219,112 8,061,970 12,341,455"
+    },
+    "Q02": {
+      "value": 931916,
+      "unit": "tCO2e",
+      "page": 44,
+      "quote": "范围一温室气体排放量（二氧化碳当量） 吨 315,610 550,932 931,916"
+    },
+    "Q03A": {
+      "value": 11409539,
+      "unit": "tCO2e",
+      "page": 44,
+      "quote": "范围二温室气体排放量（二氧化碳当量） 吨 4,903,502 7,511,038 11,409,539"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q08": {
+      "value": 132490.83,
+      "unit": "tCO2e",
+      "page": 44,
+      "quote": "报告期内，比亚迪新增生产技术工艺管理节能改造项目93个，包括冰水机改造项目、搭建能源及碳管理平台项目、除湿机节能改造项目等总计节能效益为17,160吨标准煤，减排132,490.83吨CO2。"
+    },
+    "Q09": {
+      "value": 118381,
+      "unit": "t",
+      "page": 58,
+      "quote": "危险固体废物总量 吨 41,446 71,740.93 118,381"
+    },
+    "Q10": {
+      "value": 1297817,
+      "unit": "t",
+      "page": 58,
+      "quote": "无害生产废物总量 吨 41,6431 1,028,733 129,7817"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q13": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q15": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q16": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q22": {
+      "value": 102844,
+      "unit": "人",
+      "page": 36,
+      "quote": "研发人员增加趋势 2021年 40,382 2022年 69,697 2023年 102,844"
+    },
+    "Q23": {
+      "value": 3750,
+      "unit": "件",
+      "page": 60,
+      "quote": "授权专利 个 2,634 3,704 3,750"
+    },
+    "Q24": {
+      "value": 4066,
+      "unit": "万元",
+      "page": 7,
+      "quote": "全年公益支出 4,066万元"
+    },
+    "Q25": {
+      "value": 703504,
+      "unit": "人",
+      "page": 59,
+      "quote": "员工总数 人 288,186 570,060 703,504"
+    },
+    "Q26": {
+      "value": 48810000,
+      "unit": "小时",
+      "page": 38,
+      "quote": "全年线上线下培训课时达4881万学时，人均69课时，员工岗位培训覆盖率100%。"
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 60,
+      "quote": "因工亡故的人数 人 0 0 0"
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 0,
+      "unit": "类别字段",
+      "page": null,
+      "quote": null
+    },
+    "Q31": {
+      "value": 16,
+      "unit": "件",
+      "page": 60,
+      "quote": "已审结贪污诉讼案件的数量 件 2 4 16"
+    },
+    "Q32": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    }
+  }
+}

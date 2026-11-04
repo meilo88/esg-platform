@@ -1,0 +1,174 @@
+{
+  "company_code": "600900",
+  "company_name": "中国长江电力股份有限公司",
+  "industry_l1": "公用事业",
+  "industry_l2": "水力发电",
+  "exchange": "SH",
+  "year": 2024,
+  "title": "2024年度环境、社会和治理报告",
+  "pdf_filename": "长江电力2024年度环境社会与治理报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 3.78,
+      "unit": "万吨 CO2e",
+      "page": 124,
+      "quote": "温室气体排放量 万吨 CO2e 3.78 3.55 2.15"
+    },
+    "Q02": {
+      "value": 0.2,
+      "unit": "万吨 CO2e",
+      "page": 124,
+      "quote": "范围一 万吨 CO2e 0.20 0.17 0.16"
+    },
+    "Q03A": {
+      "value": 3.58,
+      "unit": "万吨 CO2e",
+      "page": 124,
+      "quote": "范围二 万吨 CO2e 3.58 3.38 1.98"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 0.038,
+      "unit": "万吨",
+      "page": 124,
+      "quote": "危险废物产生量 万吨 0.038 0.038 0.025"
+    },
+    "Q10": {
+      "value": 0.6,
+      "unit": "万吨",
+      "page": 124,
+      "quote": "一般固体废物产生量 万吨 0.60 0.55 0.63"
+    },
+    "Q11": {
+      "value": 10837,
+      "unit": "万元",
+      "page": 124,
+      "quote": "节能环保投入 万元 10837 9192 7816"
+    },
+    "Q12": {
+      "value": 0.88,
+      "unit": "万吨标准煤/年",
+      "page": 124,
+      "quote": "综合能耗 万吨标准煤/年 0.88 0.819 0.51"
+    },
+    "Q13": {
+      "value": 6278.47,
+      "unit": "万千瓦时",
+      "page": 63,
+      "quote": "消耗外购电力 6278.47 万千瓦时"
+    },
+    "Q15": {
+      "value": 6278.47,
+      "unit": "万千瓦时",
+      "page": 63,
+      "quote": "消耗外购电力 6278.47 万千瓦时"
+    },
+    "Q16": {
+      "value": 3506.0,
+      "unit": "亿立方米",
+      "page": 68,
+      "quote": "取水量（亿立方米） 3506.00 3492.49"
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": 23.11,
+      "unit": "亿元",
+      "page": 124,
+      "quote": "研发投入 亿元 23.11 20.68 6.74"
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": 890,
+      "unit": "件",
+      "page": 125,
+      "quote": "国内新增授权专利数 件 890 1173 373"
+    },
+    "Q24": {
+      "value": 1.81,
+      "unit": "亿元",
+      "page": 124,
+      "quote": "公益捐赠 亿元 1.81 3.27 3.42"
+    },
+    "Q25": {
+      "value": 7937,
+      "unit": "人",
+      "page": 73,
+      "quote": "公司员工共计 7937 人"
+    },
+    "Q26": {
+      "value": 91.3,
+      "unit": "万小时",
+      "page": 77,
+      "quote": "培训总学时数 91.3 万小时"
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 124,
+      "quote": "员工因公死亡人数 人 0 0 0"
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": null,
+      "page": 129,
+      "quote": "中诚信绿金科技(北京)有限公司（以下简称“中诚信绿金”）受中国长江电力股份有限公司（以下简称“长江电力”或“报告组织”）委托，对中国长江电力股份有限公司 2024 年度 ESG 报告（以下简称“ESG 报告”）披露的可持续信息进行审验工作"
+    },
+    "Q31": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q32": {
+      "value": 11,
+      "unit": "人",
+      "page": 109,
+      "quote": "目前，董事会由 11 名董事组成。"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "company_code": "300760",
+  "company_name": "深圳迈瑞生物医疗电子股份有限公司",
+  "industry_l1": "医药生物",
+  "industry_l2": "医疗器械",
+  "exchange": "SZ",
+  "year": 2023,
+  "title": "2023可持续发展报告",
+  "pdf_filename": "迈瑞医疗2023年度可持续发展报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 75186.11,
+      "unit": "吨二氧化碳当量",
+      "page": 68,
+      "quote": "范围一和范围二碳排放（吨二氧化碳当量） 75,186.11 71,426.15 61,047.06"
+    },
+    "Q02": {
+      "value": 7207.56,
+      "unit": "吨二氧化碳当量",
+      "page": 118,
+      "quote": "直接（范畴 1）温室气体排放量 吨二氧化碳当量 7,207.56"
+    },
+    "Q03A": {
+      "value": 67978.55,
+      "unit": "吨二氧化碳当量",
+      "page": 118,
+      "quote": "能源间接（范畴 2）温室气体排放量 吨二氧化碳当量 67,978.55"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": 2030,
+      "unit": "年",
+      "page": 68,
+      "quote": "到 2030 年碳排放强度比"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 729.51,
+      "unit": "公吨",
+      "page": 118,
+      "quote": "危险废物重量 公吨 729.51"
+    },
+    "Q10": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 528413.43,
+      "unit": "吉焦",
+      "page": 117,
+      "quote": "组织内部的能源消耗总量 10 吉焦 528,413.43"
+    },
+    "Q13": {
+      "value": 118792111.65,
+      "unit": "千瓦时",
+      "page": 117,
+      "quote": "耗电量 千瓦时 118,792,111.65"
+    },
+    "Q15": {
+      "value": 740921,
+      "unit": "千瓦时",
+      "page": 117,
+      "quote": "太阳能产生量 千瓦时 740,921.00"
+    },
+    "Q16": {
+      "value": 1208013.49,
+      "unit": "立方米",
+      "page": 118,
+      "quote": "第三方设施取水量 立方米 1,208,013.49"
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": 37.79,
+      "unit": "亿元",
+      "page": 122,
+      "quote": "研发投入金额 亿元 37.79"
+    },
+    "Q22": {
+      "value": 4425,
+      "unit": "人",
+      "page": 122,
+      "quote": "研发工程师 人 4,425"
+    },
+    "Q23": {
+      "value": 4767,
+      "unit": "件",
+      "page": 122,
+      "quote": "累计授权专利数目 件 4,767"
+    },
+    "Q24": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q25": {
+      "value": 18044,
+      "unit": "人",
+      "page": 116,
+      "quote": "员工总数 人 18,044"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 120,
+      "quote": "工伤导致的员工死亡数量和死亡率 人；% 0；0"
+    },
+    "Q28": {
+      "value": 1446.73,
+      "unit": "万元",
+      "page": 120,
+      "quote": "员工职业健康安全投入 万元 1,446.73"
+    },
+    "Q29": {
+      "value": 1273,
+      "unit": "人次",
+      "page": 117,
+      "quote": "反贪腐与反舞弊培训覆盖人数 人次 1,273"
+    },
+    "Q30": {
+      "value": 1,
+      "unit": null,
+      "page": 123,
+      "quote": "SGS通标标准技术服务有限公司可核发验证活动报告"
+    },
+    "Q31": {
+      "value": 1,
+      "unit": "件",
+      "page": 117,
+      "quote": "2023 年，公司共发现 1 件贪腐案件，涉事的员工已按公司管理规定解除劳动合同"
+    },
+    "Q32": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    }
+  }
+}

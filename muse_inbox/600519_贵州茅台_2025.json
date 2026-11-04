@@ -1,0 +1,174 @@
+{
+  "company_code": "600519",
+  "company_name": "贵州茅台酒股份有限公司",
+  "industry_l1": "食品饮料",
+  "industry_l2": "白酒",
+  "exchange": "SH",
+  "year": 2025,
+  "title": "贵州茅台2025年环境、社会及治理（ESG）报告",
+  "pdf_filename": "贵州茅台2025环境、社会及治理（ESG）报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 272020,
+      "unit": "tCO2e",
+      "page": 83,
+      "quote": "温室气体排放总量（范围一、二） 吨二氧化碳当量 254,778 290,347 272,020"
+    },
+    "Q02": {
+      "value": 270273,
+      "unit": "tCO2e",
+      "page": 83,
+      "quote": "温室气体直接排放量（范围一） 吨二氧化碳当量 244,895 287,811 270,273"
+    },
+    "Q03A": {
+      "value": 1747,
+      "unit": "tCO2e",
+      "page": 83,
+      "quote": "温室气体间接排放量（范围二） 吨二氧化碳当量 9,883 2,536 1,747"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": 2030,
+      "unit": "年",
+      "page": 9,
+      "quote": "达峰，单位工业总产值二氧化碳排放较 2020 年下降 60%"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 635.25,
+      "unit": "t",
+      "page": 83,
+      "quote": "危险废弃物 42 吨 / 442.53 635.25"
+    },
+    "Q10": {
+      "value": 507479.66,
+      "unit": "t",
+      "page": 83,
+      "quote": "固体废弃物 吨 / 517,347.48 507,479.66"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 200612,
+      "unit": "tce",
+      "page": 83,
+      "quote": "综合能源消耗量 吨标煤 155,444 186,013 200,612"
+    },
+    "Q13": {
+      "value": 135356.34,
+      "unit": "MWh",
+      "page": 83,
+      "quote": "外购电力 兆瓦时 108,694.41 124,472.10 135,356.34"
+    },
+    "Q15": {
+      "value": 132150.9,
+      "unit": "MWh",
+      "page": 35,
+      "quote": "2025 年，公司采购绿电 13,215.09 万千瓦时。"
+    },
+    "Q16": {
+      "value": 627.82,
+      "unit": "万立方米",
+      "page": 83,
+      "quote": "总抽取水量 万立方米 658.50 635.11 627.82"
+    },
+    "Q17": {
+      "value": 91.73,
+      "unit": "%",
+      "page": 83,
+      "quote": "水循环利用率 % 87.07 85.45 91.73"
+    },
+    "Q21": {
+      "value": 80300,
+      "unit": "万元",
+      "page": 84,
+      "quote": "研发投入 亿元 6.22 6.95 8.03"
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": 60,
+      "unit": "件",
+      "page": 84,
+      "quote": "专利授权数 件 69 49 60"
+    },
+    "Q24": {
+      "value": 12100,
+      "unit": "万元",
+      "page": 4,
+      "quote": "全年累计捐赠 1.21 亿元"
+    },
+    "Q25": {
+      "value": 34992,
+      "unit": "人",
+      "page": 84,
+      "quote": "员工总人数 人 33,302 34,750 34,992"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 84,
+      "quote": "员工因工死亡人数 人 / 0 0"
+    },
+    "Q28": {
+      "value": 11700,
+      "unit": "万元",
+      "page": 71,
+      "quote": "6,535.68 万元 28.38 万元 100% 1.17 亿元"
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": "类别字段",
+      "page": 85,
+      "quote": "SGS通标标准技术服务有限公司（以下简称“SGS-CSTC”）受贵州茅台酒股份有限公司（以下简称“贵州茅台”）的委托，对其《2025年度环境、社会及治理（ESG）报告》中文版涵盖2025年1月1日至2025年12月31日期间的内容进行独立鉴证。"
+    },
+    "Q31": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q32": {
+      "value": 7,
+      "unit": "人",
+      "page": 85,
+      "quote": "董事人数 人 7 7 7"
+    }
+  }
+}

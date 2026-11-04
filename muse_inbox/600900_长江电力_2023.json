@@ -1,0 +1,174 @@
+{
+  "company_code": "600900",
+  "company_name": "中国长江电力股份有限公司",
+  "industry_l1": "公用事业",
+  "industry_l2": "水力发电",
+  "exchange": "SH",
+  "year": 2023,
+  "title": "2023年度环境、社会和治理（ESG）报告",
+  "pdf_filename": "长江电力2023年度环境社会与治理报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 35547.74,
+      "unit": "tCO2e",
+      "page": 84,
+      "quote": "温室气体排放量 tCO2e 35547.74 21517.09 /"
+    },
+    "Q02": {
+      "value": 1715.59,
+      "unit": "tCO2e",
+      "page": 84,
+      "quote": "范围一 tCO2e 1715.59 1633.57 /"
+    },
+    "Q03A": {
+      "value": 33757.45,
+      "unit": "tCO2e",
+      "page": 84,
+      "quote": "范围二 tCO2e 33757.45 19849.80 /"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 0.038,
+      "unit": "万吨",
+      "page": 84,
+      "quote": "危险废物产生量 万吨 0.038 0.025 0.041"
+    },
+    "Q10": {
+      "value": 0.55,
+      "unit": "万吨",
+      "page": 84,
+      "quote": "一般固体废物产生量 万吨 0.55 0.63 0.48"
+    },
+    "Q11": {
+      "value": 9192,
+      "unit": "万元",
+      "page": 84,
+      "quote": "节能环保投入 万元 9192 7816 8764"
+    },
+    "Q12": {
+      "value": 0.819,
+      "unit": "万吨标准煤/年",
+      "page": 84,
+      "quote": "综合能耗 万吨标准煤/年 0.819 0.51 2.51"
+    },
+    "Q13": {
+      "value": 5919.24,
+      "unit": "万千瓦时",
+      "page": 39,
+      "quote": "非化石能源消耗量 消费电力 5919.24 万千瓦时"
+    },
+    "Q15": {
+      "value": 5919.24,
+      "unit": "万千瓦时",
+      "page": 39,
+      "quote": "非化石能源消耗量 消费电力 5919.24 万千瓦时"
+    },
+    "Q16": {
+      "value": 3492.49,
+      "unit": "亿立方米",
+      "page": 38,
+      "quote": "公司在长江干流的最后一级电站葛洲坝电站取水量为3492.49亿立方米"
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": 206766,
+      "unit": "万元",
+      "page": 84,
+      "quote": "研发投入 万元 206766 67401 64253"
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": 1173,
+      "unit": "件",
+      "page": 84,
+      "quote": "国内新增授权专利数 件 1173 373 409"
+    },
+    "Q24": {
+      "value": 3.27,
+      "unit": "亿元",
+      "page": 84,
+      "quote": "公益捐赠 亿元 3.27 3.42 2.37"
+    },
+    "Q25": {
+      "value": 7683,
+      "unit": "人",
+      "page": 53,
+      "quote": "在职员工数量合计 7683 人"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 84,
+      "quote": "员工因公死亡人数 人 0 0 0"
+    },
+    "Q28": {
+      "value": 4.3,
+      "unit": "亿元",
+      "page": 61,
+      "quote": "2023 年，公司安全投入 4.3 亿元，较 2022 年同比增长 98%"
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 0,
+      "unit": null,
+      "page": 3,
+      "quote": "报告经公司董事会审批后发布。"
+    },
+    "Q31": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q32": {
+      "value": 12,
+      "unit": "人",
+      "page": 74,
+      "quote": "公司董事会目前由 12 名董事组成"
+    }
+  }
+}

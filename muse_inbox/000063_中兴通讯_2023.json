@@ -1,0 +1,174 @@
+{
+  "company_code": "000063",
+  "company_name": "中兴通讯股份有限公司",
+  "industry_l1": "通信",
+  "industry_l2": "通信设备",
+  "exchange": "SZ",
+  "year": 2023,
+  "title": "中兴通讯2023年度可持续发展报告",
+  "pdf_filename": "中兴通讯2023年度可持续发展报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 504436.25,
+      "unit": "tCO2e",
+      "page": 80,
+      "quote": "直接温室气体排放量[类别 1] 吨二氧化碳当量 45,218.37 来自输入能源的间接温室气体排放量[类别 2] 吨二氧化碳当量 459,217.88"
+    },
+    "Q02": {
+      "value": 45218.37,
+      "unit": "tCO2e",
+      "page": 80,
+      "quote": "直接温室气体排放量[类别 1] 吨二氧化碳当量 45,218.37"
+    },
+    "Q03A": {
+      "value": 459217.88,
+      "unit": "tCO2e",
+      "page": 80,
+      "quote": "来自输入能源的间接温室气体排放量[类别 2] 吨二氧化碳当量 459,217.88"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": 64950905.51,
+      "unit": "tCO2e",
+      "page": 80,
+      "quote": "运输产生的间接温室气体排放量[类别 3] 吨二氧化碳当量 353,598.73 组织使用的产品产生的间接温室气体排放量[类别 4] 吨二氧化碳当量 1,513,775.17 组织产品的使用有关的间接温室气体排放量[类别 5] 吨二氧化碳当量 63,083,531.61 其他来源的间接温室气体排放量[类别 6] 吨二氧化碳当量 0"
+    },
+    "Q07": {
+      "value": 2050,
+      "unit": "年",
+      "page": 57,
+      "quote": "2040 年实现自身运营碳中和，2050 年实现整体碳中和，达到净零排放。"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 1268.51,
+      "unit": "t",
+      "page": 80,
+      "quote": "年度有害废弃物总量 吨 1,268.51"
+    },
+    "Q10": {
+      "value": 3753.02,
+      "unit": "t",
+      "page": 80,
+      "quote": "年度一般废弃物总量 吨 3,753.02"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q13": {
+      "value": 795914.52,
+      "unit": "MWh",
+      "page": 81,
+      "quote": "外购电网用电 千瓦时 795,914,520.00"
+    },
+    "Q15": {
+      "value": 4820.3,
+      "unit": "MWh",
+      "page": 81,
+      "quote": "太阳能发电量 千瓦时 4,820,300.00"
+    },
+    "Q16": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q22": {
+      "value": 35393,
+      "unit": "人",
+      "page": 81,
+      "quote": "研发人员 人 35,393"
+    },
+    "Q23": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q24": {
+      "value": 2606,
+      "unit": "万元",
+      "page": 85,
+      "quote": "资金捐献 万元 2,606"
+    },
+    "Q25": {
+      "value": 72093,
+      "unit": "人",
+      "page": 81,
+      "quote": "员工总人数 人 72,093"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 3,
+      "unit": "人",
+      "page": 83,
+      "quote": "因工伤造成的死亡人数（含突发疾病） 2021 人 2 2022 人 0 2023 人 3"
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": "类别字段",
+      "page": 76,
+      "quote": "为确保公司可持续发展绩效指标的可靠性，公司聘请莱茵技术（上海）有限公司依照 AccountAbility AA1000 审验标准《中兴通讯 2023 年度可持续发展报告》内容进行独立审验。"
+    },
+    "Q31": {
+      "value": 0,
+      "unit": "件",
+      "page": 85,
+      "quote": "针对公司发起并审结的贪污诉讼案件数量 宗 0"
+    },
+    "Q32": {
+      "value": 9,
+      "unit": "人",
+      "page": 19,
+      "quote": "董事人数 人 9"
+    }
+  }
+}

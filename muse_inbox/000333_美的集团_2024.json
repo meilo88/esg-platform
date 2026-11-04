@@ -1,0 +1,174 @@
+{
+  "company_code": "000333",
+  "company_name": "美的集团股份有限公司",
+  "industry_l1": "家用电器",
+  "industry_l2": "白色家电",
+  "exchange": "SZ",
+  "year": 2024,
+  "title": "美的集团2024环境、社会及管治（ESG）报告",
+  "pdf_filename": "美的集团2024环境、社会及管治（ESG）报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 2203472,
+      "unit": "tCO2e",
+      "page": 73,
+      "quote": "温室气体排放总量（范围1+2）（吨二氧化碳当量） 2,203,472 2,298,311 1,505,877"
+    },
+    "Q02": {
+      "value": 681036,
+      "unit": "tCO2e",
+      "page": 73,
+      "quote": "范围1温室气体排放 681,036 1,017,606 129,400"
+    },
+    "Q03A": {
+      "value": 1522436,
+      "unit": "tCO2e",
+      "page": 73,
+      "quote": "范围2温室气体排放 1,522,436 1,280,705 1,376,477"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": 196247729,
+      "unit": "tCO2e",
+      "page": 73,
+      "quote": "范围3温室气体排放 196,247,729 4,960,000 /"
+    },
+    "Q07": {
+      "value": 2060,
+      "unit": "年",
+      "page": 14,
+      "quote": "2030年前实现碳达峰，2060年前实现碳中和"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 20451.2,
+      "unit": "t",
+      "page": 73,
+      "quote": "有害废弃物总量 吨 20,451.20"
+    },
+    "Q10": {
+      "value": 729790.0,
+      "unit": "t",
+      "page": 73,
+      "quote": "一般固废总量 吨 729,790.00"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 3528346.64,
+      "unit": "MWh",
+      "page": 73,
+      "quote": "综合能源消耗总量 千个千瓦时 3,528,346.64"
+    },
+    "Q13": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q15": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q16": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q17": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q21": {
+      "value": 1623200,
+      "unit": "万元",
+      "page": 45,
+      "quote": "年度研发投入（亿元） 2022年 126.19 2023年 145.83 2024年 162.32"
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q24": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q25": {
+      "value": 198000,
+      "unit": "人",
+      "page": 74,
+      "quote": "员工总人数 千人 198"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 74,
+      "quote": "因工亡故人数 2024年 人 0"
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": "类别字段",
+      "page": 79,
+      "quote": "SGS通标标准技术服务有限公司（以下简称“SGS”）受美的集团股份有限公司（以下简称“美的集团”）的委托，对2024美的集团环境、社会及管治（ESG）报告中文版（以下简称“报告”）进行独立鉴证。"
+    },
+    "Q31": {
+      "value": 0,
+      "unit": "件",
+      "page": 62,
+      "quote": "2024年，美的集团及其员工未涉及任何已审结的贿赂、欺诈或贪污等法律诉讼案件。"
+    },
+    "Q32": {
+      "value": 10,
+      "unit": "人",
+      "page": 63,
+      "quote": "截至报告期末，本集团所有10名董事均参与了反贪腐相关培训。"
+    }
+  }
+}
