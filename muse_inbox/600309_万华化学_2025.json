@@ -1,0 +1,174 @@
+{
+  "company_code": "600309",
+  "company_name": "万华化学集团股份有限公司",
+  "industry_l1": "基础化工",
+  "industry_l2": "化学制品",
+  "exchange": "上交所 (SH)",
+  "year": 2025,
+  "title": "万华化学2025年度环境、社会和公司治理(ESG)报告",
+  "pdf_filename": "万华化学2025年度环境、社会和公司治理(ESG)报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 31.32,
+      "unit": "百万tCO2e",
+      "page": 95,
+      "quote": "碳排放总量（百万tCO2e) 23.89 26.46 28.03 31.32"
+    },
+    "Q02": {
+      "value": 24.26,
+      "unit": "百万tCO2e",
+      "page": 95,
+      "quote": "-直接温室气体排放量 (范围一）(百万tCO2e) 15.13 16.94 21.61 24.26"
+    },
+    "Q03A": {
+      "value": 7.06,
+      "unit": "百万tCO2e",
+      "page": 95,
+      "quote": "-间接温室气体排放量 (范围二）(百万tCO2e) 8.76 9.52 6.42 7.06"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": 2048,
+      "unit": "目标年",
+      "page": 31,
+      "quote": "将不晚于2030年实现碳达峰，力争于2048年实现碳中和"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": 39.83,
+      "unit": "万吨",
+      "page": 44,
+      "quote": "危险废物产生量 万吨 7.03 26.14 32.56 39.83"
+    },
+    "Q10": {
+      "value": 138.81,
+      "unit": "万吨",
+      "page": 44,
+      "quote": "一般固废产生量 万吨 89.60 97.93 114.75 138.81"
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 610.51,
+      "unit": "万吨标准煤",
+      "page": 95,
+      "quote": "能源消耗总量 （万吨标准煤） 349.63 447.68 500.56 610.51"
+    },
+    "Q13": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q15": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q16": {
+      "value": 14301,
+      "unit": "万吨",
+      "page": 45,
+      "quote": "总取水量 万吨 7,543 9,475 11,733 14,301"
+    },
+    "Q17": {
+      "value": 99,
+      "unit": "%",
+      "page": 95,
+      "quote": "冷却水循环利用率 (%) 98.2 98.8 98.9 99"
+    },
+    "Q21": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q24": {
+      "value": 726,
+      "unit": "万元",
+      "page": 96,
+      "quote": "对外捐赠、公益项目投入(万元) 1024 697 924 726"
+    },
+    "Q25": {
+      "value": 30772,
+      "unit": "人",
+      "page": 96,
+      "quote": "员工总人数 (人) 19692 29053 33303 30772"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": 0,
+      "unit": "人",
+      "page": 58,
+      "quote": "公司自2021年起保持员工与承包商工伤致死零记录。"
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": "类别字段",
+      "page": 103,
+      "quote": "对其《2025年度环境、社会及治理报告》中文版涵盖2025年1月1日至2025年12月31日期间的内容进行独立鉴证。"
+    },
+    "Q31": {
+      "value": 0,
+      "unit": "件",
+      "page": 91,
+      "quote": "报告期内公司未因不正当竞争行为导致诉讼或重大行政处罚"
+    },
+    "Q32": {
+      "value": 11,
+      "unit": "人",
+      "page": 85,
+      "quote": "董事会成员 11名"
+    }
+  }
+}

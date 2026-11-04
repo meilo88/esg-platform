@@ -1,0 +1,174 @@
+{
+  "company_code": "600309",
+  "company_name": "万华化学集团股份有限公司",
+  "industry_l1": "基础化工",
+  "industry_l2": "化学制品",
+  "exchange": "上交所 (SH)",
+  "year": 2024,
+  "title": "万华化学2024年度环境、社会及治理（ESG）报告",
+  "pdf_filename": "万华化学2024年度环境、社会及治理（ESG）报告.pdf",
+  "indicators": {
+    "Q01": {
+      "value": 28.03,
+      "unit": "百万tCO2e",
+      "page": 67,
+      "quote": "碳排放总量（百万tCO2e） 23.89 26.46 28.03"
+    },
+    "Q02": {
+      "value": 21.61,
+      "unit": "百万tCO2e",
+      "page": 67,
+      "quote": "-直接温室气体排放量 (范围一) (百万tCO2e) 15.13 16.94 21.61"
+    },
+    "Q03A": {
+      "value": 6.42,
+      "unit": "百万tCO2e",
+      "page": 67,
+      "quote": "-间接温室气体排放量 (范围二) (百万tCO2e) 8.76 9.52 6.42"
+    },
+    "Q03B": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q04": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q07": {
+      "value": 2048,
+      "unit": "目标年",
+      "page": 23,
+      "quote": "万华化学承诺将不晚于2030年实现碳达峰，力争于2048年实现碳中和，通过电力零碳化、能源低碳化、创新减碳化"
+    },
+    "Q08": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q09": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q10": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q11": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q12": {
+      "value": 40.7,
+      "unit": "Twh",
+      "page": 67,
+      "quote": "能源消耗总量（Twh） 27.8 36.4 40.7"
+    },
+    "Q13": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q15": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q16": {
+      "value": 11734,
+      "unit": "万吨",
+      "page": 29,
+      "quote": "总取水量 万吨 8261 11734"
+    },
+    "Q17": {
+      "value": 98.9,
+      "unit": "%",
+      "page": 67,
+      "quote": "冷却水循环利用率 (%) 98.2 98.8 98.9"
+    },
+    "Q21": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q22": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q23": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q24": {
+      "value": 924,
+      "unit": "万元",
+      "page": 68,
+      "quote": "对外捐赠、公益项目投入（万元） 1024 697 924"
+    },
+    "Q25": {
+      "value": 33303,
+      "unit": "人",
+      "page": 68,
+      "quote": "员工总人数 (人) 19692 29053 33303"
+    },
+    "Q26": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q27": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q28": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q29": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null
+    },
+    "Q30": {
+      "value": 1,
+      "unit": "类别字段",
+      "page": 75,
+      "quote": "SGS通标标准技术服务有限公司（以下简称“SGS”）受万华化学集团股份有限公司（以下简称“万华化学”）的委托，对《2024年度环境、社会及治理报告》中文版（以下简称“报告”）进行独立鉴证。"
+    },
+    "Q31": {
+      "value": 0,
+      "unit": "件",
+      "page": 64,
+      "quote": "全年公司无针对反竞争行为、反托拉斯和反垄断实践的法律诉讼。"
+    },
+    "Q32": {
+      "value": 11,
+      "unit": "人",
+      "page": 60,
+      "quote": "公司董事会由11名董事组成"
+    }
+  }
+}
