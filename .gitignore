@@ -52,6 +52,3 @@ tmp/
 .env
 .env.*
 !.env.example
-
-# 大型原版 PDF 报告库（线上功能依赖轻量 SQLite 数据库，无需常驻 950MB PDF）
-esg报告/
