@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+venv
+env
+__pycache__
+*.pyc
+.DS_Store
+.env
+storage/
+output/*.xlsx
+*.db-wal
+*.db-shm
+tests/
+*.md
+!ESG_report_tool_project_brief.md

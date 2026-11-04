@@ -1,0 +1,153 @@
+/* 可持续发展报告指标平台 - 现代简约数据终端样式 */
+
+:root {
+  --brand-primary: #2563EB;
+  --brand-primary-hover: #1D4ED8;
+  --surface-bg: #F8FAFC;
+  --card-border: #E2E8F0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "SF Pro Text", "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background-color: var(--surface-bg);
+  color: #0F172A;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 数字等宽对齐（财务与ESG定量指标专用） */
+.font-mono,
+.font-tabular,
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 视图切换轻盈渐显动效 */
+.view-panel:not(.hidden) {
+  animation: viewFadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes viewFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 顶部导航激活态 */
+.nav-tab {
+  position: relative;
+  transition: all 0.16s ease;
+}
+
+.nav-tab.active {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+/* 详情与工作台标签页激活样式 */
+.tab-btn.active,
+.rep-detail-tab-btn.active {
+  color: #2563EB;
+  border-bottom-color: #2563EB;
+}
+
+/* 表格纯净悬停交互（去除生硬斑马纹） */
+tbody tr {
+  transition: background-color 0.12s ease;
+}
+
+tbody tr:hover {
+  background-color: #F8FAFC;
+}
+
+/* 滚动条精细化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* 手风琴展开图标平滑旋转 */
+.acc-icon {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 公司库指标目录激活高亮行 */
+.kpi-row-item {
+  border-left: 3px solid transparent;
+  transition: all 0.14s ease;
+}
+
+.kpi-row-item:hover {
+  background-color: #F8FAFC;
+}
+
+.kpi-row-active {
+  background-color: #EFF6FF !important;
+  border-left-color: #2563EB !important;
+}
+
+/* 卡片轻量化悬浮质感 */
+.card-interactive {
+  transition: transform 0.16s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.card-interactive:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -4px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.04);
+  border-color: #CBD5E1;
+}
+
+/* 原文摘录排版 */
+#modal-quote {
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+}
+
+/* 轻量级非阻塞 Toast 通知 */
+.toast-enter {
+  animation: toastSlideIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.toast-leave {
+  animation: toastFadeOut 0.18s ease forwards;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes toastFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+}
