@@ -378,6 +378,30 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // ==================== 深色/浅色模式切换 ====================
+  const btnThemeToggle = document.getElementById("btn-theme-toggle");
+  const themeToggleIcon = document.getElementById("theme-toggle-icon");
+
+  function updateThemeUI(isDark) {
+    if (themeToggleIcon) {
+      themeToggleIcon.className = isDark ? "ph ph-sun text-base text-amber-300" : "ph ph-moon text-base text-slate-300";
+    }
+  }
+
+  // 初始化主题图标
+  updateThemeUI(document.documentElement.classList.contains("dark"));
+
+  if (btnThemeToggle) {
+    btnThemeToggle.addEventListener("click", () => {
+      const isDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("esg_theme", isDark ? "dark" : "light");
+      updateThemeUI(isDark);
+      if (currentCompanyCode && trendIndicatorSelect) {
+        loadCompanyTrend(currentCompanyCode, trendIndicatorSelect.value);
+      }
+    });
+  }
+
   updateAdminUI();
 
   // ==================== 1. 视图切换与跨板块联动 ====================
@@ -719,6 +743,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ];
     }
 
+    const isDark = document.documentElement.classList.contains("dark");
     const option = {
       graphic: graphicOverlay,
       tooltip: {
@@ -752,16 +777,16 @@ document.addEventListener("DOMContentLoaded", () => {
         type: "category",
         data: years.map(y => `${y}年`),
         axisTick: { show: false },
-        axisLine: { lineStyle: { color: "#E2E8F0" } },
-        axisLabel: { color: "#64748B", fontSize: 11, fontWeight: 600 }
+        axisLine: { lineStyle: { color: isDark ? "#334155" : "#E2E8F0" } },
+        axisLabel: { color: isDark ? "#94A3B8" : "#64748B", fontSize: 11, fontWeight: 600 }
       },
       yAxis: {
         type: "value",
         axisLine: { show: false },
         axisTick: { show: false },
-        splitLine: { lineStyle: { color: "#F1F5F9", type: "dashed" } },
+        splitLine: { lineStyle: { color: isDark ? "#1E293B" : "#F1F5F9", type: "dashed" } },
         axisLabel: {
-          color: "#64748B",
+          color: isDark ? "#94A3B8" : "#64748B",
           fontSize: 11,
           formatter: (val) => {
             if (Math.abs(val) >= 100000000) return `${(val / 100000000).toFixed(1)}亿`;

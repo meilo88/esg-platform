@@ -151,3 +151,141 @@ tbody tr:hover {
     transform: translateY(-6px) scale(0.98);
   }
 }
+
+/* ==================== 深色模式 (Dark Mode) ==================== */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0B0F17 !important;
+  color: #F1F5F9 !important;
+}
+
+/* 深色卡片与背景 */
+html.dark .bg-white {
+  background-color: #151D2C !important;
+  color: #F1F5F9 !important;
+}
+
+html.dark .bg-slate-50,
+html.dark .bg-slate-50\/70,
+html.dark .bg-slate-50\/80 {
+  background-color: #0E1523 !important;
+}
+
+html.dark .border-slate-200,
+html.dark .border-slate-200\/80,
+html.dark .border-slate-200\/60,
+html.dark .border-slate-100 {
+  border-color: #243044 !important;
+}
+
+/* 文本对比度适配 */
+html.dark .text-slate-900 {
+  color: #F8FAFC !important;
+}
+
+html.dark .text-slate-800 {
+  color: #E2E8F0 !important;
+}
+
+html.dark .text-slate-700 {
+  color: #CBD5E1 !important;
+}
+
+html.dark .text-slate-600 {
+  color: #94A3B8 !important;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-400 {
+  color: #64748B !important;
+}
+
+/* 表格与高亮 */
+html.dark tbody tr:hover {
+  background-color: #1C2638 !important;
+}
+
+html.dark thead,
+html.dark th {
+  background-color: #101826 !important;
+  color: #94A3B8 !important;
+  border-color: #243044 !important;
+}
+
+html.dark td {
+  border-color: #243044 !important;
+}
+
+/* 表单与输入框 */
+html.dark input:not([type="checkbox"]),
+html.dark select,
+html.dark textarea {
+  background-color: #151D2C !important;
+  border-color: #334155 !important;
+  color: #F8FAFC !important;
+}
+
+html.dark input::placeholder {
+  color: #64748B !important;
+}
+
+/* 侧边栏/指标行 */
+html.dark .kpi-row-item:hover {
+  background-color: #1C2638 !important;
+}
+
+html.dark .kpi-row-active {
+  background-color: #1E3A8A !important;
+  border-left-color: #3B82F6 !important;
+}
+
+/* 弹窗适配 */
+html.dark #quote-modal > div > div,
+html.dark #admin-login-modal > div > div,
+html.dark #settings-modal > div > div {
+  background-color: #151D2C !important;
+  border-color: #334155 !important;
+  color: #F1F5F9 !important;
+}
+
+/* 标签与徽章 */
+html.dark .bg-slate-100 {
+  background-color: #1E293B !important;
+  color: #CBD5E1 !important;
+}
+
+html.dark .bg-blue-50 {
+  background-color: rgba(37, 99, 235, 0.15) !important;
+}
+
+html.dark .bg-emerald-50 {
+  background-color: rgba(16, 185, 129, 0.15) !important;
+}
+
+html.dark .bg-amber-50 {
+  background-color: rgba(245, 158, 11, 0.15) !important;
+}
+
+html.dark .bg-rose-50 {
+  background-color: rgba(244, 63, 94, 0.15) !important;
+}
+
+/* 页脚深色 */
+html.dark footer {
+  background-color: #0B0F17 !important;
+  border-top-color: #1E293B !important;
+}
+
+html.dark footer p,
+html.dark footer span,
+html.dark footer button {
+  color: #64748B !important;
+}
+
+html.dark footer button:hover {
+  color: #CBD5E1 !important;
+}
+
