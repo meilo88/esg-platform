@@ -22,12 +22,14 @@ from core.exporter import ExcelExporter
 from core.llm_client import LLMClient
 from core.database import get_db_connection, init_db, seed_initial_data, INDICATOR_META
 from core.annotation_manager import AnnotationManager
+from core.muse_sync import sync_muse_inbox
 
 logger = logging.getLogger("esg_platform")
 
-# 确保数据库已初始化
+# 确保数据库已初始化，并自动同步 muse_inbox/ 中的新增 Excel/JSON 抽取成果
 init_db()
 seed_initial_data()
+sync_muse_inbox()
 
 BASE_DIR = Path(__file__).resolve().parent
 STATIC_DIR = BASE_DIR / "static"

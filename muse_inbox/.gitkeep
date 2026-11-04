@@ -1,0 +1,2 @@
+# Muse 云端协同抽取收件箱 (muse_inbox)
+# 将 Muse 生成的 .xlsx 或 .json 抽取文件放入此目录并推送到 GitHub，线上网站会自动核验并入库！
