@@ -80,12 +80,21 @@ class ESGExtractor:
 【需提取的 {len(config.INDICATORS)} 项核心指标清单】：
 {indicators_str}
 
-【严格提取规范】：
+【严格提取规范与防错红线（必须严格执行）】：
 1. 严禁编造或猜测任何数值！原文未披露的指标，必须将 value 设为 null，status 设为 "未披露"。
-2. 范围2间接排放必须区分：Q03A（基于位置法 Location-based）与 Q03B（基于市场法 Market-based）；若报告仅披露单一“范围2排放”且未注明市场法绿电抵扣，默认填入 Q03A，Q03B 标为 "未披露"。
-3. 每个已披露指标必须给出与该页原文一致的原句或表格行文本 quote，以及准确的报告页码 page（整数）。
-4. 区分报告当期实际值与未来规划目标值：除 Q07（减排目标年份填入 value，如 2030）外，其余定量指标均提取报告基准年度（{basic_info['report_year']}年）当期实际数据。
-5. 复合型指标提取约定：
+2. 【关键红线：绝对排放量 vs 减排/削减百分比】：
+   - Q01（温室气体总量）、Q02（范围1）、Q03A/Q03B（范围2）、Q04（范围3）提取的必须是报告当期的【实际绝对排放量】（单位必须为重量单位：tCO2e、吨、万吨等），【绝对严禁将削减/下降百分比 % 提取为排放量】！
+   - 原文中的“大幅削减58.8%”、“减少35.0%”、“同比下降12%”属于减排降幅百分比，绝对不是排放量！如果原文对范围2仅提及削减了58.8%而未披露具体排放吨数，Q03A 必须为 value: null, status: "未披露"；
+   - 减排规划目标（如“承诺到2050年绝对排放量减少90%”）只能填入 Q07（温室气体减排目标与规划），value 填 2050，target_val 填 "较基准年减少90%"，严禁将减排目标错填入 Q01~Q04！
+3. 【关键红线：表格多行多维度指标精确对齐】：
+   - Q26（员工培训学时）：value 必须提取“员工培训总学时/总时长/总课时”（单位必须为 小时/万小时，如 1,769,165 小时），【绝对严禁提取同行或同表的培训覆盖率(如97.02%)、培训支出(如616.59万元)或培训总人次(如497,368人次)】！
+   - Q25（员工总数）：value 必须是员工在册总人数（单位：人），比例（如女性员工比例、研发人员占比）填入 female_ratio_pct 或 ratio_pct，严禁将占比填入 value！
+   - Q21（研发投入）：value 必须是研发支出总金额（单位：万元/亿元），占营收比例填入 ratio_pct，严禁把占比填入 value！
+   - Q12（综合能耗）：value 必须是能源消耗总量（单位：tce、吨标准煤、MWh、吉焦等），严禁把能耗下降比例（%）当成能耗！
+4. 范围2间接排放必须区分：Q03A（基于位置法 Location-based）与 Q03B（基于市场法 Market-based）；若报告仅披露单一“范围2排放”且未注明市场法绿电抵扣，默认填入 Q03A，Q03B 标为 "未披露"。
+5. 每个已披露指标必须给出与该页原文一致的原句或表格行文本 quote，以及准确的报告页码 page（整数）。
+6. 区分报告当期实际值与未来规划目标值：除 Q07（减排目标年份填入 value，如 2030）外，其余定量指标均提取报告基准年度（{basic_info['report_year']}年）当期实际数据。
+7. 复合型指标提取约定：
    - Q15（清洁能源）：value 填使用量数值，unit 填原单位，ratio_pct 填占比数字（不含%号）；
    - Q21（研发投入）：value 填投入金额数值，unit 填原单位（如亿元/万元），ratio_pct 填占营收比例；
    - Q22（研发人员）：value 填人数，unit 填 "人"，ratio_pct 填占总员工比例；
@@ -108,11 +117,12 @@ class ESGExtractor:
     "Q03A": {{"value": 数值或null, "unit": "原单位", "year": {basic_info['report_year']}, "page": 页码整数, "quote": "原文精确片段", "status": "已披露/未披露"}},
     "Q03B": {{"value": 数值或null, "unit": "原单位", "year": {basic_info['report_year']}, "page": 页码整数, "quote": "原文精确片段", "status": "已披露/未披露"}},
     "Q07": {{"value": 目标年份整数或null, "unit": "目标年", "base_year": 基准年或null, "target_year": 目标年或null, "target_val": "减排目标描述", "page": 页码整数, "quote": "原文精确片段", "status": "已披露/未披露"}},
+    "Q26": {{"value": 总学时数值或null, "unit": "小时", "year": {basic_info['report_year']}, "page": 页码整数, "quote": "原文精确片段", "status": "已披露/未披露"}},
     "Q30": {{"value": 1或0, "unit": "类别字段", "is_assured": true或false, "agency": "机构名称", "standard": "鉴证标准", "page": 页码整数, "quote": "原文精确片段", "status": "已披露/未披露"}}
   }}
 }}
 """
-        system_instruction = "你是一名严谨的上市公司可持续发展报告数据提取引擎。只输出合法的 JSON 对象，不要包含 Markdown 代码块包裹或任何额外解释。"
+        system_instruction = "你是一名国家级上市公司可持续发展报告（ESG）审计专家与高精度结构化抽取引擎。严禁将减排百分比误提取为绝对排放量，严禁将培训覆盖率误提取为培训总学时。只输出合法的 JSON 对象，不要包含 Markdown 代码块包裹或任何额外解释。"
         
         raw_result = self.llm.call_json(prompt, system_instruction, basic_info=basic_info, parser=parser)
 
@@ -161,6 +171,10 @@ class ESGExtractor:
                 std_val, std_unit, conv_note = RulesEngine.standardize_unit(code, raw_val, raw_unit)
                 if code == "Q07" and data.get("target_val"):
                     conv_note = str(data.get("target_val"))
+                # 若因单位不匹配（如碳排放误抽百分比、培训学时误抽覆盖率/人次）被规则引擎拦截校正，重置状态
+                if std_val is None and raw_val is not None and "校正为未披露" in str(conv_note):
+                    status = "未披露"
+                    raw_val = None
             
             item_row = {
                 "code": code,

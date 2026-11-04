@@ -39,6 +39,9 @@ class RulesEngine:
         # 1. 温室气体与碳减排类 (Q01, Q02, Q03, Q03A, Q03B, Q04, Q08) -> 标准单位: tCO2e
         if metric_code in ["Q01", "Q02", "Q03", "Q03A", "Q03B", "Q04", "Q08"]:
             std_unit = "tCO2e"
+            # 异常防错：严禁将减排比例或降幅百分比误作为绝对排放量
+            if any(u in unit for u in ["%", "百分比", "比例"]):
+                return None, "", f"提取错误：该指标为绝对排放量(tCO2e)，提取到的为百分比({raw_value}{raw_unit})，已自动校正为未披露"
             if any(u in unit for u in ["万吨", "万t", "10000t"]):
                 return round(num * 10000, 2), std_unit, "原值×10,000 (万吨->吨)"
             elif any(u in unit for u in ["千克", "kg"]):
@@ -131,6 +134,9 @@ class RulesEngine:
 
         # 9. 学时/小时类 (Q26员工培训, Q29合规廉洁培训)
         elif metric_code in ["Q26", "Q29"]:
+            # 异常防错：严禁将培训覆盖率(%)、培训费用(万元)、培训人次误当成总学时
+            if any(u in unit for u in ["%", "万元", "元", "人次", "人"]):
+                return None, "", f"提取错误：该指标为培训学时(小时)，提取到的为({raw_value}{raw_unit})，已自动校正为未披露"
             if "万" in unit:
                 return round(num * 10000, 1), "小时", "原值×10,000 (万小时->小时)"
             return round(num, 1), "小时", "培训学时"
