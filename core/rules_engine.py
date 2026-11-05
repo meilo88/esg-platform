@@ -132,14 +132,25 @@ class RulesEngine:
             std_u = "起/人" if metric_code == "Q27" else "件"
             return round(num, 0), std_u, "法定统计数量"
 
-        # 9. 学时/小时类 (Q26员工培训, Q29合规廉洁培训)
-        elif metric_code in ["Q26", "Q29"]:
-            # 异常防错：严禁将培训覆盖率(%)、培训费用(万元)、培训人次误当成总学时
+        # 9. 学时/小时类 (Q26员工培训学时, Q29合规廉洁培训学时/人次)
+        elif metric_code == "Q26":
+            # 异常防错：Q26严禁将培训覆盖率(%)、培训费用(万元)、培训人次误当成总学时
             if any(u in unit for u in ["%", "万元", "元", "人次", "人"]):
                 return None, "", f"提取错误：该指标为培训学时(小时)，提取到的为({raw_value}{raw_unit})，已自动校正为未披露"
             if "万" in unit:
                 return round(num * 10000, 1), "小时", "原值×10,000 (万小时->小时)"
             return round(num, 1), "小时", "培训学时"
+
+        elif metric_code == "Q29":
+            if any(u in unit for u in ["%", "万元", "元"]):
+                return None, "", f"提取错误：提取到的为({raw_value}{raw_unit})，已自动校正为未披露"
+            if "人次" in unit or "人" in unit:
+                if "万" in unit:
+                    return round(num * 10000, 0), "人次", "原值×10,000 (万人次->人次)"
+                return round(num, 0), "人次", "廉洁培训人次"
+            if "万" in unit:
+                return round(num * 10000, 1), "小时", "原值×10,000 (万小时->小时)"
+            return round(num, 1), "小时", "廉洁培训学时"
 
         # 10. 百分比类 (Q17水循环利用率)
         elif metric_code == "Q17":

@@ -11,7 +11,7 @@ from typing import Optional, Dict, Any, List
 from urllib.parse import quote
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -35,6 +35,10 @@ BASE_DIR = Path(__file__).resolve().parent
 STATIC_DIR = BASE_DIR / "static"
 OUTPUT_DIR = BASE_DIR / "output"
 REPORTS_DIR = BASE_DIR / "esg报告"
+GITHUB_RAW_PDF_BASE = os.environ.get(
+    "GITHUB_RAW_PDF_BASE",
+    "https://raw.githubusercontent.com/meilo88/esg-platform/main/esg%E6%8A%A5%E5%91%8A"
+)
 STORAGE_DIR = BASE_DIR / "storage"
 TEMP_UPLOADS_DIR = STORAGE_DIR / "temp_uploads"
 ADMIN_WORKPAPER_DIR = STORAGE_DIR / "admin_workpapers"
@@ -490,7 +494,7 @@ async def list_reports(
     rows = [dict(r) for r in c.fetchall()]
     for item in rows:
         fn = Path(item.get("pdf_filename") or "").name
-        item["has_pdf"] = bool(fn and ((REPORTS_DIR / fn).exists() or (STORAGE_DIR / "reports" / fn).exists()))
+        item["has_pdf"] = bool(fn)
     conn.close()
     return {"reports": rows}
 
@@ -525,7 +529,7 @@ async def get_report_detail(report_id: int):
 
     rep_dict = dict(rep)
     fn = Path(rep_dict.get("pdf_filename") or "").name
-    rep_dict["has_pdf"] = bool(fn and ((REPORTS_DIR / fn).exists() or (STORAGE_DIR / "reports" / fn).exists()))
+    rep_dict["has_pdf"] = bool(fn)
 
     return {
         "report": rep_dict,
@@ -536,7 +540,7 @@ async def get_report_detail(report_id: int):
 
 @app.get("/api/reports/{report_id}/download-pdf")
 async def download_report_pdf(report_id: int):
-    """下载特定报告的官方披露原版 PDF 文件（严格校验路径防越界）"""
+    """下载特定报告的官方披露原版 PDF 文件（优先本地直出，云端容器无本地文件时自动回源 GitHub Raw CDN）"""
     conn = get_db_connection()
     c = conn.cursor()
     c.execute("SELECT * FROM reports WHERE id = ?", (report_id,))
@@ -559,10 +563,11 @@ async def download_report_pdf(report_id: int):
             target_file = p
             break
 
-    if not target_file:
-        raise HTTPException(status_code=404, detail=f"服务器未找到该原版 PDF 文件 ({pdf_filename})")
-
     encoded_name = quote(pdf_filename)
+    if not target_file:
+        cloud_pdf_url = f"{GITHUB_RAW_PDF_BASE.rstrip('/')}/{encoded_name}"
+        return RedirectResponse(url=cloud_pdf_url, status_code=302)
+
     headers = {
         "Content-Disposition": f"attachment; filename*=UTF-8''{encoded_name}"
     }

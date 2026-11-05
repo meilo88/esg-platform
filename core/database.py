@@ -671,6 +671,12 @@ def seed_initial_data():
     conn.commit()
     conn.close()
 
+    try:
+        from core.muse_sync import sync_muse_inbox
+        sync_muse_inbox()
+    except Exception:
+        pass
+
 if __name__ == "__main__":
     init_db(drop_first=True)
     seed_initial_data()

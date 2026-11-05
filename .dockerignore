@@ -14,3 +14,7 @@ output/*.xlsx
 tests/
 *.md
 !ESG_report_tool_project_brief.md
+esg报告/*.pdf
+!esg报告/立讯精密2024可持续发展报告.pdf
+!esg报告/蓝思科技2024可持续发展报告.pdf
+!esg报告/歌尔股份2024可持续发展报告.pdf

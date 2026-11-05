@@ -30,8 +30,8 @@ async def run_tests():
     stats = await get_platform_stats()
     print(f"   -> 公司数: {stats['total_companies']}, 报告数: {stats['total_reports']}, 披露指标总计: {stats['total_kpis']}, 核验率: {stats['verified_rate']}")
     assert stats['total_companies'] == 18
-    assert stats['total_reports'] == 35
-    assert stats['total_kpis'] == 945
+    assert stats['total_reports'] == 55
+    assert stats['total_kpis'] == 1485
     assert stats['verified_reports'] == 0
     assert stats['verified_rate'] == "0.0%"
 
@@ -200,9 +200,9 @@ async def run_tests():
     print(f"   -> 健康检查通过，样本列表共 {len(samples_res['samples'])} 份且已隐藏物理路径")
 
     rep_kw_res = await list_reports(keyword="比亚迪")
-    assert len(rep_kw_res["reports"]) == 3
+    assert len(rep_kw_res["reports"]) == 4
     rep_status_res = await list_reports(status="AI抽取，待核查")
-    assert len(rep_status_res["reports"]) == 35
+    assert len(rep_status_res["reports"]) == 55
     print("   -> 报告库关键词检索与状态筛选校验通过")
 
     class MockRequest:
@@ -347,7 +347,7 @@ async def run_tests():
     print(f"   -> 成功校验：管理员携带 Token 成功将新报告入库，生成 report_id={new_report_id}")
 
     new_stats = await get_platform_stats()
-    assert new_stats['total_reports'] == 36
+    assert new_stats['total_reports'] == 56
     assert new_stats['total_companies'] == 19
 
     conn = get_db_connection()
